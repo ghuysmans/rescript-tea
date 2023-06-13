@@ -33,7 +33,7 @@ let getPosition = ({position, drag}) =>
     }
   }
 
-let updateHelp = ({position} as model, x) =>
+let updateHelp = ({position, _} as model, x) =>
   switch x {
   | DragStart(xy) => {
       position: position,

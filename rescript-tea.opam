@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "rescript-tea"
+version: "0.16.0"
+maintainer: "darklang"
+authors: "OvermindDL1"
+license: "LGPL-3.0-or-later"
+homepage: "https://github.com/darklang/rescript-tea/"
+bug-reports: "https://github.com/darklang/rescript-tea/issues"
+dev-repo: "git://github.com/darklang/rescript-tea/"
+build: [["dune" "build" "-p" name "-j" jobs]]
+synopsis: "The Elm Architecture (TEA) for Rescript"
+depends: [
+  "dune" {>= "3.8"}
+  "melange"
+  "rescript-syntax"
+  "rescript-webapi"
+]

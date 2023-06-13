@@ -1,0 +1,7 @@
+(library
+ (name tea)
+ (public_name rescript-tea)
+ (modes melange)
+ (wrapped false)
+ (libraries rescript-webapi)
+ (preprocess (pps melange.ppx)))

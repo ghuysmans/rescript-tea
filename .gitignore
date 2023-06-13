@@ -1,5 +1,6 @@
 /node_modules
 /.merlin
 /lib
+/_build/
 npm-debug.log
 

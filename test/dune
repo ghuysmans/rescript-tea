@@ -1,0 +1,1 @@
+(melange.emit (target test_client) (libraries rescript-tea))
